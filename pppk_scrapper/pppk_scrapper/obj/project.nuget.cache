@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "crVIgmrUtwU=",
+  "success": true,
+  "projectFilePath": "C:\\temp\\pppk\\pppk_scrapper\\pppk_scrapper\\pppk_scrapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZI\\.nuget\\packages\\htmlagilitypack\\1.11.67\\htmlagilitypack.1.11.67.nupkg.sha512",
+    "C:\\Users\\ZI\\.nuget\\packages\\selenium.webdriver\\4.25.0\\selenium.webdriver.4.25.0.nupkg.sha512",
+    "C:\\Users\\ZI\\.nuget\\packages\\selenium.webdriver.chromedriver\\129.0.6668.10000\\selenium.webdriver.chromedriver.129.0.6668.10000.nupkg.sha512"
+  ],
+  "logs": []
+}
