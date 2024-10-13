@@ -157,5 +157,18 @@ class XenaDataDownloader
     {
         Console.WriteLine("All downloads completed.");
         _driver.Quit();
+
+         string projectDir = AppDomain.CurrentDomain.BaseDirectory;
+         string pppkExePath = Path.Combine(projectDir, "pppk_unzipper_v2.exe");
+
+        try
+        {
+            Console.WriteLine("Running pppk_unzipper_v2.exe...");
+            System.Diagnostics.Process.Start(pppkExePath);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error running pppk_unzipper_v2.exe: " + ex.Message);
+        }
     }
 }
